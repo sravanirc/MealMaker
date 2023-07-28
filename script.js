@@ -39,7 +39,7 @@ const createMeal= () => {
     let starter = starters[starterIndex];
     let main = mains[mainIndex];
     let dessert = desserts[dessertIndex];
-    document.getElementById("mainSec").innerHTML= "<h2> Here is your unique Meal:</h2> <br>Starter : " + starter +" <br> Main: "  + main + "<br> Dessert: " + dessert +"<br> <br><a><button class=\"button\" onclick=\"createMeal()\"> Another meal!</button></a>";
+    document.getElementById("mainSec").innerHTML= "<h2> Here is your unique Meal:</h2> <h3 id=\"mealres\"> <br>Starter : " + starter +" <br> Main: "  + main + "<br> Dessert: " + dessert +"</h3><br> <br><a><button class=\"button\" onclick=\"createMeal()\"> Another meal!</button></a>" ;
 };
 
 // createMeal();

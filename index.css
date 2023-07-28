@@ -11,9 +11,10 @@ button{
 border-radius: 0.5em;
 box-shadow: 5px 5px 5px grey;
 cursor: pointer;
-min-width: 20em;
+max-width: 20em;
 text-align: center;
 padding: 1em;
+width: 50%;
 
 }
 
@@ -31,9 +32,9 @@ background-attachment: scroll;
     background-size: cover;
     text-align: center;
     font-weight: 500;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     opacity:1.2;
-  
+ 
 }
 
 nav ul li{
@@ -86,13 +87,19 @@ header nav{
     background-color: lightgray;
     padding: 0.1em 1em 0.5em 1em;
     border-radius: 1em;
-    
-}
+    }
 
 #mainSec{
     position: absolute;
     top: 15%;
-       
+    width: 80%;
+    margin: auto 10%;   
+   
+}
+
+#mealres{
+    font-size: 1.4em;
+    line-height: 2em;
 }
 p{
     margin-bottom: 1.5em;
@@ -112,3 +119,10 @@ p{
 #completeMenu div{
     display: inline-block;
 }
+
+
+@media screen and (max-width: 720px){
+header h1 {
+    content-visibility: hidden;
+
+}}
