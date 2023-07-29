@@ -71,7 +71,7 @@ header{
     margin-left: 0; 
     display: flex;
     justify-content: space-between;
-    background-color: bisque;
+    background-image: linear-gradient(to left,lightgreen,lightgray, lightgrey, lightgreen);
     position: fixed;
     z-index: 1;
 }
@@ -114,7 +114,9 @@ p{
     align-items: center;
 }
 
-
+header h1, nav{
+    margin: auto 1%; 
+}
 
 #completeMenu div{
     display: inline-block;
