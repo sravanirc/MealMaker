@@ -84,9 +84,10 @@ header nav{
  
 
 #intro, #How_to , .sec {
-    background-color: lightgray;
+    background-color: rgba(211,211,211,0.8);
     padding: 0.1em 1em 0.5em 1em;
     border-radius: 1em;
+    
     }
 
 #mainSec{
@@ -122,9 +123,16 @@ header h1, nav{
     display: inline-block;
 }
 
+#smallScreen {
+    display: none;
+}
 
 @media screen and (max-width: 720px){
-header h1 {
-    content-visibility: hidden;
-
-}}
+ header h1 {
+     display: none;  
+     }
+#smallScreen{
+    display: block;
+    margin-left:2%;
+}
+    }
